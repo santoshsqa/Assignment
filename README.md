@@ -22,10 +22,10 @@
 * **TestNG** is being used as testing framework which provided relevant annotations
 
 # Solution of Assignment
-**Navigate to multiple pages of the website and automate verification of the header and footer.** - Solution1.java
-**Automate Newsletter subscription scenarios. The newsletter subscription is placed in the footer.** - Solution2.java
-**Automate Women > Dresses > Summer Dresses listing page** - Solution3.java
-**Verify the checkout journey by adding any product to the cart.** - Solution4.java
+* **Navigate to multiple pages of the website and automate verification of the header and footer.** - Solution1.java
+* **Automate Newsletter subscription scenarios. The newsletter subscription is placed in the footer.** - Solution2.java
+* **Automate Women > Dresses > Summer Dresses listing page** - Solution3.java
+* **Verify the checkout journey by adding any product to the cart.** - Solution4.java
 
 
 
