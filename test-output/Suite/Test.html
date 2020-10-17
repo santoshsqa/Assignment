@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 17 12:56:03 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>71 seconds (71061 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.axelerant.testcases.Scenario1.navigattionToDifferentPages()'><b>navigattionToDifferentPages</b><br>Test class: com.axelerant.testcases.Scenario1<br>Test method: Navigate to multiple pages of the website and automate verification of the header and footer.<br/>
+<a href="#Output-2028379471" onClick='toggleBox("Output-2028379471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2028379471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2028379471">
+Clicked on Women<br/>
+Clicked on Dresses<br/>
+Clicked on T-shirts<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.axelerant.testcases.Scenario1@4ef37659</td></tr>
+<tr>
+<td title='com.axelerant.testcases.Scenario4.validateCheckoutFlow()'><b>validateCheckoutFlow</b><br>Test class: com.axelerant.testcases.Scenario4<br/>
+<a href="#Output-1282526652" onClick='toggleBox("Output-1282526652", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1282526652" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1282526652">
+Clicked on Add to Cart button<br/>
+Click on Proceed to checkout button<br/>
+Click on Proceed to Checkout button from Cart page<br/>
+Entered checkoutflow@gmail.com<br/>
+Entered 12345<br/>
+Click on Sign in button<br/>
+Click on ProcessAddress button<br/>
+Click on Agreement Checkbox<br/>
+Click on Proceed to checkout button<br/>
+Click on Pay by Bank Wire link<br/>
+Click on I confirm my order button<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.axelerant.testcases.Scenario4@4e268090</td></tr>
+<tr>
+<td title='com.axelerant.testcases.Scenario2.validateNewsLetterScenario()'><b>validateNewsLetterScenario</b><br>Test class: com.axelerant.testcases.Scenario2<br>Test method: Automate Newsletter subscription scenarios<br/>
+<a href="#Output-232668739" onClick='toggleBox("Output-232668739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-232668739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-232668739">
+Entered testing15@gmail.com<br/>
+Click on Submit button for NewsLetter<br/>
+Entered testing15@gmail.com<br/>
+Click on Submit button for NewsLetter<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.axelerant.testcases.Scenario2@776b83cc</td></tr>
+<tr>
+<td title='com.axelerant.testcases.Scenario3.validateSizeFilter()'><b>validateSizeFilter</b><br>Test class: com.axelerant.testcases.Scenario3<br>Test method: Apply any one available filter and verify the results<br/>
+<a href="#Output-734342457" onClick='toggleBox("Output-734342457", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-734342457" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-734342457">
+Clicked on Size S<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.axelerant.testcases.Scenario3@37858383</td></tr>
+<tr>
+<td title='com.axelerant.testcases.Scenario3.validateSorting()'><b>validateSorting</b><br>Test class: com.axelerant.testcases.Scenario3</td>
+<td></td>
+<td>1</td>
+<td>com.axelerant.testcases.Scenario3@37858383</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Axelerant Assignment" parallel="classes"
+	thread-count="2">
+	<test name="Testcases">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.axelerant.utility.ObjectInitializations" />
+			<class name="com.axelerant.testcases.Scenario1" />
+			<class name="com.axelerant.testcases.Scenario2" />
+			<class name="com.axelerant.testcases.Scenario3" />
+			<class name="com.axelerant.testcases.Scenario4" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

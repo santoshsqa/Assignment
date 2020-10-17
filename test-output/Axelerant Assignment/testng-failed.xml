@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Axelerant Assignment]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Testcases(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.axelerant.testcases.Scenario1">
+        <methods>
+          <include name="initializeInstances"/>
+          <include name="closeBrowser"/>
+          <include name="navigattionToDifferentPages"/>
+        </methods>
+      </class> <!-- com.axelerant.testcases.Scenario1 -->
+      <class name="com.axelerant.testcases.Scenario3">
+        <methods>
+          <include name="validateSorting"/>
+          <include name="initializeInstances"/>
+          <include name="validateSizeFilter"/>
+          <include name="beforeEveryTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.axelerant.testcases.Scenario3 -->
+      <class name="com.axelerant.testcases.Scenario4">
+        <methods>
+          <include name="initializeInstances"/>
+          <include name="validateCheckoutFlow"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.axelerant.testcases.Scenario4 -->
+      <class name="com.axelerant.testcases.Scenario2">
+        <methods>
+          <include name="initializeInstances"/>
+          <include name="validateNewsLetterScenario"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.axelerant.testcases.Scenario2 -->
+    </classes>
+  </test> <!-- Testcases(failed) -->
+</suite> <!-- Failed suite [Axelerant Assignment] -->
