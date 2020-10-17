@@ -9,10 +9,15 @@ b. Apply sorting options - Price and Product name and verify the results
 
 # Solution
 ## About the Framework
-* This framework is developement on Page Object Modal way with Selenium and java
+* This framework is developement on **Page Object Modal** way via using  Selenium and java Maven.
 * 3 source folder available in the project
+    |Source Folder|Description|
+    | --- | --- |
     |src/main/java| This is for creating base of the project and finding objects with different pages with some utility classes|
     |src/test/java| This package will only use for createing testscripts to run|
     |src/test/resources| If there is any external data or file that need to use this source folder will use for that|
-   
+* **TestNG** is being used as testing framework which provided relevant annotations
+
+
+
  
