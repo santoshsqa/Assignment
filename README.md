@@ -19,7 +19,9 @@
     ![image](https://user-images.githubusercontent.com/73033312/96350754-d48c2e80-10d4-11eb-99ab-17664887e646.png)
 
     
-* **TestNG** is being used as testing framework which provided relevant annotations
+* **TestNG** is being used as testing framework which provided relevant annotations.
+* Currently the report is being generated with testng but we can implement extent report
+* Currently I didn't include anything for logging but we can integrate log4j jar for logging
 
 # Solution of Assignment
 * **Navigate to multiple pages of the website and automate verification of the header and footer.** - Solution1.java
@@ -28,11 +30,17 @@
 * **Verify the checkout journey by adding any product to the cart.** - Solution4.java
 
 
-
+# How to Execute
+* Clone this project in local and import to your IDE(Ecliple preferable)
+* Wait to download relevant jar from maven repository to local
+* Execute **testng,xml** as parallel execute is already implemented in xml file
+* See the report as index.html
 
 
 #Issue Facing
  Not able to perform Filter and Sort by process as application is throwing error as 403 on performing sorting and filter process. See the Image and Video video
  ![image](https://user-images.githubusercontent.com/73033312/96350803-246af580-10d5-11eb-9ef0-6ab2a57b47d4.png)
 Video :-[Forbidden Issue](https://santoshgupta.tinytake.com/tt/NDczNjY1NF8xNDk4NjQxNg)
+
+**Note:-** I have the knowledge of cypress tool also but didn't worked on real time application but will be able to implement from scratch as it was preferred tool mentioned in assignment
 
