@@ -38,10 +38,12 @@
 
 
 # Issue Facing
- Not able to perform Filter and Sort by process as application is throwing error as 403 on performing sorting and filter process. See the Image and Video video
+* Not able to perform Filter and Sort by process as application is throwing error as 403 on performing sorting and filter process. See the Image and Video video
  ![image](https://user-images.githubusercontent.com/73033312/96350803-246af580-10d5-11eb-9ef0-6ab2a57b47d4.png)
 
-Video :-[Forbidden Issue](https://santoshgupta.tinytake.com/tt/NDczNjY1NF8xNDk4NjQxNg)
+* Video :-[Forbidden Issue](https://santoshgupta.tinytake.com/tt/NDczNjY1NF8xNDk4NjQxNg)
+* Because of above issues I was not able to handle scenario of filter and sorting but able to select the values
+
 
 **Note:-** I have the knowledge of cypress tool also but didn't worked on real time application but will be able to implement from scratch as it was preferred tool mentioned in assignment
 
